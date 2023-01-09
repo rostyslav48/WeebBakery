@@ -1,0 +1,393 @@
+
+
+
+
+
+#body{
+    background-color: #7d7d7d;
+    overflow-x: hidden;
+    
+}
+
+/*.background-img{
+    
+    width: 100vw;
+    background-image: url(../resources2/Crusaint\ 1.png);}*/
+
+#background-img{
+    width: 100vw; height: 704px;
+    
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+/*nav*/
+.nav-flexbox-2{
+    display: flex;
+    justify-content: space-between;
+
+    overflow: hidden;
+}
+.nav-flexbox{
+    display: flex;
+    overflow: hidden;
+    /*flex-flow: row wrap;*/
+    justify-content: flex-end;
+    /*position:fixed;*/
+    width: 100vw;
+    height: 70px;
+    /*top: 0; left: 0;*/
+    align-items: center;
+
+}
+.nav-item{
+
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    margin: 2vw;
+}
+.nav-item:hover{
+    color: #EF7B0D;
+}
+.logo{
+    justify-self: flex-start;
+    
+}
+/*/nav*/
+.header-container{
+    width: 100vw; height: 624px;
+    overflow: hidden;
+}
+.header-layout{
+    margin-top: 191px;
+}
+.header, .smaler{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    line-height: 140%;
+    letter-spacing: 1px;
+}
+.header{
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.smaler{
+    font-size: 15px;
+    font-weight: 300;
+    width: 305px; height: 46px;
+
+}
+.main-button{
+    background-color: #D39860;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 250px; height: 52px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.main-button:hover{
+    background-color: #EF7B0D;
+}
+.section-header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*Begining of cards*/
+
+   
+
+#card-container{
+    width: 240px; height: 352px;
+            background-color: white;
+            border-radius: 20px;
+   filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.25));
+   margin-bottom: 50px; margin-right: 10px;
+
+}
+.card-items{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.name{
+
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.Weight-number, .Price-number{
+
+    display: inline;
+}
+.grid-button{
+    width: 150px; height: 30px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+
+
+}
+.grid-button:hover{
+    background-color: orange;
+}
+.Weight, .Weight-number, .Price-number, .Price, .name{
+    color: black;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.Weight, .Weight-number, .Price-number, .Price{
+    font-weight: 400;
+}
+/*Ending of cards*/
+.flex-card-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+/*Ending of cards*/
+.view-more{
+    display: flex;
+    height: 290px; width: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#View-more{
+    font-size: 17px;
+    color: white;
+
+}
+#arrow:hover{
+    color: orange;
+}
+
+#news-form{
+    width: 100vw; height: 253px;
+}
+.background-img-news{
+    z-index: -1;
+    position: absolute; top: 1343px; left: 0;
+}
+.news-content{
+    width: 524px; height: 108px;
+    margin-top: 50px;
+}
+.news-section{
+    width: 475px; height: 48px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+.email-input{
+    letter-spacing: 1px;
+    color: white;
+    background-color: transparent;
+    width: 410px; height: 38px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500; font-size: 15px;
+    border: none;
+    border-bottom: solid white 1px;
+
+
+}
+
+#mail-button{
+    background-color: #D39860;
+    color: white;
+    width: 70px; height: 70px;
+    border-radius: 70px;
+    border: none;
+}
+#mail-button:hover{
+    background-color: #EF7B0D;
+}
+#mail-icon{
+    margin-top: 2px;
+    text-align: center;
+    font-size: 40px;
+}
+.info-section{
+    width: 100vw; height: 243px;
+    align-content: center;
+    display: flex;
+}
+.info-layout-full{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info-header{
+    margin-top: 87px;
+}
+.info-layout-2{
+    width: 536px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 71px;
+}
+.sub-section{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.info-section-component-big{
+    font-size: 45px;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+}
+.info-section-component-small{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+footer{
+    width: 100vw; height: 360px;
+    background-color: #575757;
+}
+.menu-item{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+.menu-item:hover{
+    color: #EF7B0D;
+}
+
+.footer-items-left{
+    height: 180px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+#Privacy{
+    margin-left: 10px;
+}
+
+#logo-down{
+    width: 192px; height: 74px;
+}
+.footer-items-middle{
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 87px;
+}
+#arrow{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.arrow-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-items-right{
+    display: flex;
+    flex-direction: column;
+    height: 135px; width: 160px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 110px;
+}
+.footer-button{
+    width: 144px; height: 45px;
+    border: solid 1px white;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: transparent;
+}
+.footer-button:hover{
+    color: #EF7B0D;
+}
+#phone-number{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+
+}
+#email{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin: 0;
+}
+
+/*#phone-number, .footer-button, #email{
+    display: block;
+}*/
+@media screen and (max-width: 600px){
+    .header{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .smaler{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .view-more{
+        width: 250px; height: 80px;
+
+    }
+    #View-more{
+        display: none;
+    }
+
+}
+.galery-grid{
+    display: flex;
+    margin: 5vh 1vw 1vh 1vw;
+    flex-flow: row wrap;
+    
+}
+.vertical-img{
+    
+    width: 175px; height: 300px;
+}
+.horizontal-img{
+    width: 300px; height: 175px;
+}
